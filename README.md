@@ -29,3 +29,21 @@ Turn your PDFs into interactive chat partners! DocuChat AI is an intelligent PDF
    ```bash
    git clone https://github.com/yourusername/docuchat-ai.git
    cd docuchat-ai
+
+
+
+---
+
+### Notes:
+1. Replace `yourusername` in the `git clone` link with your GitHub username.
+2. Create a `requirements.txt` with the libraries:
+   ```plaintext
+   streamlit
+   langchain
+   langchain_groq
+   langchain_huggingface
+   langchain_community
+   faiss-cpu
+   PyPDF2
+   transformers
+
