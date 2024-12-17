@@ -1,2 +1,31 @@
-# DocuChat-AI-PDF-Conversational-Assistant
-DocuChat AI turns PDFs into interactive chat partners, enabling AI-powered Q&amp;A with chat history. Built with Streamlit, FAISS, and LLM APIs like Groq and HuggingFace, it supports PDF uploads, text splitting, and context-aware Q&amp;A. 
+# DocuChat AI: Intelligent PDF Conversational Assistant  
+
+Turn your PDFs into interactive chat partners! DocuChat AI is an intelligent PDF conversational assistant that allows you to upload PDFs, ask questions, and receive concise AI-powered answers, all with memory of your chat history.  
+
+## 🚀 Features  
+
+- **PDF Upload**: Upload single or multiple PDFs.  
+- **AI-Powered Q&A**: Get quick and accurate answers to your queries based on the uploaded documents.  
+- **Chat History**: Context-aware Q&A with memory of previous questions in the current session.  
+- **Groq API Integration**: Utilize the Groq `Gemma-7b-It` model for conversational AI.  
+- **Text Splitting**: Efficiently handles long documents by splitting into chunks.  
+
+---
+
+## 🛠️ Technologies Used  
+
+- **Streamlit**: Interactive UI for the PDF chatbot.  
+- **LangChain**: Framework for language model applications.  
+- **HuggingFace Embeddings**: Utilizes the `All-MiniLM-L6-v2` model for embeddings.  
+- **FAISS**: Vector store for efficient document retrieval.  
+- **Groq API**: Integration with Groq's `Gemma-7b-It` model.  
+- **PyPDFLoader**: PDF parsing and content extraction.  
+
+---
+
+## 📦 Installation  
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/yourusername/docuchat-ai.git
+   cd docuchat-ai
